@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Praise&family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <div class="wrapper">
@@ -25,12 +26,9 @@
                 <h1 class="about__name">alexander</h1>
                 <h2 class="about__surname">kolokoltsev</h2>
                 <p class="about__post">QA Engineer</p>
-                <!-- <span class="about__knowledge">ANIME</span> -->
-
                 <div class="animation_wrapper">
                     <div class="hotkey-animation"><span class="hotekey-animation-span" id="typed"></span></div>
                 </div>
-
                 <p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque optio ut id, error aliquid rem dicta explicabo esse voluptate quaerat alias nihil dolor dolorem culpa. Officia culpa, repellendus dolorum pariatur distinctio labore repellat odio dolor. Odit libero alias quidem, facilis iste pariatur nesciunt officia qui minus sequi recusandae neque hic?</p>
             </div>
             <div class="experience">
@@ -45,8 +43,6 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos veritatis enim, esse officia eius quo laudantium dolores reiciendis amet! Suscipit eaque nihil quo obcaecati, debitis omnis sequi atque adipisci.
                         </p>
                     </div>
-
-
                 </div>
             </div>
         </section>
@@ -66,7 +62,7 @@
                         </a>
                     </li>
                     <li class="contact__item">
-                        <a class="contact__link contact__link--skype" href="skype:live:.cid.8b9d75d14de67738?userinfo">skype</a>
+                        <a class="contact__link contact__link--skype" href="skype:live:.cid.8b9d75d14de67738?userinfo">Skype</a>
                     </li>
                     <li class="contact__item">
                         <a class="contact__link contact__link--wa" href="https://wa.me/79963779557" target="_blank">
@@ -98,7 +94,7 @@
                     <div class="skills__item">
                         <span class="skills__item-name">MS office</span>
                         <div class="skills__item-grade">
-                            <span class="skills__item-place skills__item-place--active"></span> <!-- Добавь класс skills__item-place--active чтобы сделать активным -->
+                            <span class="skills__item-place skills__item-place--active"></span>
                             <span class="skills__item-place skills__item-place--active"></span>
                             <span class="skills__item-place skills__item-place--active"></span>
                             <span class="skills__item-place skills__item-place--active"></span>
@@ -129,7 +125,7 @@
                         <span class="skills__item-name">MySQL</span>
                         <div class="skills__item-grade">
                             <span class="skills__item-place skills__item-place--active"></span> 
-                            <span class="skills__item-place skills__item-place--active"></span>
+                            <span class="skills__item-place"></span>
                             <span class="skills__item-place"></span>
                             <span class="skills__item-place"></span>
                             <span class="skills__item-place"></span>
@@ -185,9 +181,6 @@
                             <span class="skills__item-place"></span>
                         </div> 
                     </div>
-
-
-
                 </div>
             </div>
             <div class="hobbies">
@@ -202,10 +195,8 @@
 </body>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/typed.min.js"></script>
-
 <script>
     function newTyped(){}$(function(){$("#typed").typed({
-    // Change to edit type effect
     strings: ["smoke", "regress", "retest"],
     typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
 </script>

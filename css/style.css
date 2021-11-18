@@ -32,11 +32,11 @@
     background-color: #E5E5E5;
 }
 .wrapper {
-    margin: 80px 230px 60px 250px;
-    padding: 0 15px;
+    margin: 80px auto 60px auto;
+    padding: 0 30px 0 80px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .leftside {
     flex-basis: 60%;
@@ -119,7 +119,7 @@
 .experience__item-text {
     margin: 25px 0;
 }
-/*                             */
+/*   styles for rightside  */
 .rightside {
     flex-basis: 33%;
     margin-left: 15px;
@@ -270,6 +270,7 @@
 .hobbies__text {
     color: #666666;
 }
+
 .animation_wrapper {
     display: flex;
     justify-content: left;

@@ -1,0 +1,20 @@
+@media (max-width: 1270px) {
+    .wrapper {
+        display: block;
+    }
+    .header {
+        width: 100%;
+    }
+    .header__rectangle {
+        width: 55px;
+        height: 100%;
+        background-color: #BB7A3B;
+        padding: 10px;
+        margin-right: 25px;
+        height: 260px;
+    }
+    .rightside {
+        margin-left: 0px;
+    }
+    
+}
