@@ -275,50 +275,25 @@
     display: flex;
     justify-content: left;
   }
-.hotkey-animation{
-  width: 95px;
-  text-align: left;
-  margin-bottom: 20px;
-}
-.hotekey-animation-span {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
-}
-.typed-cursor {
-  font-size: 1rem;
-  opacity: 1;
-  font-weight: 100;
-  -webkit-animation: blink 0.7s infinite;
-  /* -moz-animation: blink 0.7s infinite;
-  -ms-animation: blink 0.7s infinite;
-  -o-animation: blink 0.7s infinite; */
-  animation: blink 0.7s infinite; 
-}
-/* @-webkit-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-ms-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-o-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } } */
+  .hotkey-animation{
+    width: 95px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .hotekey-animation-span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  }
+      .typed-cursor {
+        font-size: 1rem;
+        opacity: 1;
+        font-weight: 100;
+        -webkit-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite; 
+      }
+      /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
