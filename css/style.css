@@ -283,34 +283,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
   }
-  /* @-webkit-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @-moz-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @-ms-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @-o-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } } */
       .typed-cursor {
         font-size: 1rem;
         opacity: 1;
