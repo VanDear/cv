@@ -283,16 +283,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
   }
-  .typed-cursor {
-    font-size: 1rem;
-    opacity: 1;
-    font-weight: 100;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
-    -o-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite; 
-  }
   /* @-webkit-keyframes blink {
     0% {
       opacity: 1; }
