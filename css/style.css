@@ -32,11 +32,11 @@
     background-color: #E5E5E5;
 }
 .wrapper {
-    margin: 80px 230px 60px 250px;
-    padding: 0 15px;
+    margin: 80px auto 60px auto;
+    padding: 0 30px 0 80px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .leftside {
     flex-basis: 60%;
@@ -119,7 +119,7 @@
 .experience__item-text {
     margin: 25px 0;
 }
-/*                             */
+/*   styles for rightside  */
 .rightside {
     flex-basis: 33%;
     margin-left: 15px;
@@ -270,54 +270,55 @@
 .hobbies__text {
     color: #666666;
 }
+
 .animation_wrapper {
     display: flex;
     justify-content: left;
   }
-  .hotkey-animation{
-    width: 95px;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  .hotekey-animation-span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-  }
-  .typed-cursor {
-    font-size: 1rem;
-    opacity: 1;
-    font-weight: 100;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
-    -o-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite; 
-  }
-  @-webkit-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @-moz-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @-ms-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @-o-keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
+.hotkey-animation{
+  width: 95px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.hotekey-animation-span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+.typed-cursor {
+  font-size: 1rem;
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; 
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
