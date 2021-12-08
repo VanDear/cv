@@ -276,7 +276,7 @@
     justify-content: left;
   }
   .hotkey-animation{
-    width: 95px;
+    width: 200px;
     text-align: left;
     margin-bottom: 20px;
   }
@@ -288,7 +288,7 @@
         font-size: 1rem;
         opacity: 1;
         font-weight: 100;
-        -webkit-animation: blink 0.7s infinite;
+        /* -webkit-animation: blink 0.7s infinite; */
         animation: blink 0.7s infinite; 
       }
       /*
@@ -297,3 +297,10 @@
 * Autoprefixer: v10.3.1
 * Browsers: last 4 version
 */
+@keyframes blink {
+    0% {
+      opacity: 1; }
+    50% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
