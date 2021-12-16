@@ -175,6 +175,9 @@
 .contact__link--wa::before {
     background-image: url(../img/wa.svg);
 }
+.contact__link--tg::before {
+    background-image: url(../img/tg.svg);
+}
 .contact__link--address::before {
     background-image: url(../img/address.svg);
 }
