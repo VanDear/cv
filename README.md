@@ -3,3 +3,4 @@ To do
 
 - Education swap lines
 - In work exp date must be full named
+- add button to download pdf cv
