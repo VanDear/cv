@@ -309,47 +309,47 @@
       opacity: 1; } 
 }
 
-
-.switch {
+.buttons {
     position: absolute;
-    display: inline-block;
-    right: 5%;
-    top: 4%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    right: 3%;
+    top: 3%;
 }
-  
+.switch {
+    position: relative;
+    display: block;
+    margin: 0 5px;
+} 
 .switch > span {
     position: absolute;
-    top: 14px;
+    top: 11px;
     pointer-events: none;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 13px;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
     width: 50%;
     text-align: center;
 }
-  
 input.check-toggle-round-flat:checked ~ .off {
-    color: #F36F25;
+    color: #BB7A3B;
 }
-  
 input.check-toggle-round-flat:checked ~ .on {
     color: #fff;
-}
-  
+} 
 .switch > span.on {
     left: 0;
     padding-left: 2px;
-    color: #F36F25;
+    color: #BB7A3B;
 }
-  
 .switch > span.off {
     right: 0;
     padding-right: 4px;
     color: #fff;
-}
-  
+} 
 .check-toggle {
     position: absolute;
     margin-left: -9999px;
@@ -362,12 +362,11 @@ input.check-toggle-round-flat:checked ~ .on {
     outline: none;
     user-select: none;
 }
-  
 input.check-toggle-round-flat + label {
     padding: 2px;
-    width: 97px;
-    height: 35px;
-    background-color: #F36F25;
+    width: 100px;
+    height: 35.95px;
+    background-color: #BB7A3B;
     border-radius: 60px;
 }
 input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
@@ -375,16 +374,14 @@ input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + la
     position: absolute;
     content: "";
 }
-  
 input.check-toggle-round-flat + label:before {
     top: 2px;
     left: 2px;
     bottom: 2px;
     right: 2px;
-    background-color: #F36F25;
+    background-color: #BB7A3B;
     border-radius: 60px;
 }
-
 input.check-toggle-round-flat + label:after {
     top: 4px;
     left: 4px;
@@ -394,19 +391,16 @@ input.check-toggle-round-flat + label:after {
     border-radius: 52px;
     transition: margin 0.2s;
 }
-  
-  input.check-toggle-round-flat:checked + label {
+input.check-toggle-round-flat:checked + label {
 }
-  
 input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
 }
 .download {
-    position: absolute;
-    right: 12%;
-    top: 3%;
+  margin-right: 15px;
 }
 .download__cv {
+    min-width: 170px;
     padding: 8px 16px;
     border: 2px solid #BB7A3B;
     border-radius: 52px;
@@ -414,6 +408,7 @@ input.check-toggle-round-flat:checked + label:after {
     background-color: #BB7A3B;
     color: #fff;
     transition: all .1s;
+    font-size: 15px;
 }
 .download__cv:hover {
     background-color: rgba(187, 122, 59, 0.3);
