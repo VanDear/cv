@@ -294,7 +294,28 @@
         /* -webkit-animation: blink 0.7s infinite; */
         animation: blink 0.7s infinite; 
       }
-      /*
+.en_lang {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+}
+  .lang_buttons {
+      text-align: left;
+  }
+      .button {
+          display: inline-block;
+          text-decoration: none;
+          border: 1px solid gray;
+          padding: 5px 15px;
+          margin-top: 20px;
+          margin-right: 0;
+      }
+      .en_lang {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+/*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.3.6,
 * Autoprefixer: v10.3.1
