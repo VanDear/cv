@@ -18,12 +18,9 @@
     }
     .download {
         margin-right: 8px;
-      }
-      .download__cv {
-          min-width: 125px;
-          padding: 8px 16px;
-      }
-    
+        min-width: 125px;
+        padding: 8px 16px;
+      }    
 }
 
 @media only screen and (max-width: 700px) {
@@ -192,8 +189,6 @@
     }
     .download {
         margin-right: 2px;
-    }
-    .download__cv {
         font-size: 10px;
         padding: 5px 1px;
         min-width: 90px;
