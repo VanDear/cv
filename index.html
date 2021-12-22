@@ -15,6 +15,19 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+    <section class="buttons">
+        <div class="download">
+            <span class="download__title">Download cv</span>
+            <a class="download__link download__link--en" href="documents/Kolokoltsev_QA_Eng.pdf" target="_blank">en</a>
+            <a class="download__link download__link--ru" href="documents/Kolokoltsev_QA.pdf" target="_blank">ru</a>
+        </div>
+        <div class="switch">
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+            <label for="language-toggle"></label>
+            <span class="on">EN</span>
+            <span class="off">RU</span>
+        </div>
+    </section>
     <div class="wrapper">
         <section class="leftside">
             <div class="header">
@@ -24,17 +37,22 @@
                 </div>  
             </div>
             <div class="about">
-                <h1 class="about__name">alexander</h1>
-                <h2 class="about__surname">kolokoltsev</h2>
+                <h1 class="about__name en">alexander</h1>
+                <h2 class="about__surname en">kolokoltsev</h2>
+                <h1 class="about__name ru">александр</h1>
+                <h2 class="about__surname ru">колокольцев</h2>
                 <p class="about__post">QA Engineer</p>
                 <div class="animation_wrapper">
                     <div class="hotkey-animation"><span class="hotekey-animation-span" id="typed"></span></div>
                 </div>
-                <p class="about__text">
+                <p class="about__text en">
                     I had been worked at Yandex for about 4 months. In this short period of time, my testing skills were high-rated by Yandex rating system. I gained work experience and an idea of what to do next for my career growth. While working at Yandex, I found it most interesting to work with web testing. Unfortunately, I do not have much experience, but I am continue learning.
-                    </p>
+                </p>
+                <p class="about__text ru">
+                    Я проработал в Яндексе около 4 месяцев. За этот короткий промежуток времени мои навыки тестирования были высоко оценены рейтинговой системой Яндекса. Я приобрел опыт работы и представление о том, что делать дальше для моего карьерного роста. Во время работы в Яндексе мне было интереснее всего работать с веб-тестированием. К сожалению, у меня не так много опыта, но я продолжаю изучать тестирование.
+                </p>
             </div>
-            <div class="experience">
+            <div class="experience en">
                 <h3 class="experience__title title">work experience</h3>
                 <span class="experience__line line"></span>
                 <div class="experience__list">
@@ -53,10 +71,30 @@
                     </div>
                 </div>
             </div>
+            <div class="experience ru">
+                <h3 class="experience__title title">опыт работы</h3>
+                <span class="experience__line line"></span>
+                <div class="experience__list">
+                    <div class="experience__item">
+                        <p class="experience__item-date">Август - Ноябрь 2020</p>
+                        <p class="experience__item-place">Яндекс, Россия</p>
+                        <p><span class="experience__item-post">Ассесор-тестировщик</span></p>
+                        <p class="experience__item-text">
+                            <li>Регрессионное, функциональное тестирование по тест-кейсам</li>
+                            <li>Коммуникация с разработчиками</li>
+                            <li>Фиксация багов в TestPalm</li>
+                            <li>Кросс-платформенная проверка веб-сайтов и приложений на наличие дефектов с использованием снифферов и devtools</li>
+                            <li>Тестирование приложений на Android и IOS(использовалась ферма устройств),  с использованием ADB и chrome devtools</li>
+                            <li>Тестирование приложений на Win 10, Win 7</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="rightside">
             <div class="contact">
-                <h3 class="contact__title title">contact</h3>
+                <h3 class="contact__title title en">contact</h3>
+                <h3 class="contact__title title ru">связь</h3>
                 <span class="contact__line line"></span>
                 <ul class="contact__list">
                     <li class="contact__item">
@@ -83,13 +121,16 @@
                         </a>
                     </li>
                     <li class="contact__item">
-                        <a class="contact__link contact__link--address" href="https://www.google.com/maps/place/Novosibirsk,+Novosibirsk+Oblast/@54.9700492,82.6692224,10z/data=!3m1!4b1!4m5!3m4!1s0x42dfe5e190cc4d97:0x9b3a0673e1d3e985!8m2!3d54.9832693!4d82.8963831" target="_blank">
+                        <a class="contact__link contact__link--address en" href="https://www.google.com/maps/place/Novosibirsk,+Novosibirsk+Oblast/@54.9700492,82.6692224,10z/data=!3m1!4b1!4m5!3m4!1s0x42dfe5e190cc4d97:0x9b3a0673e1d3e985!8m2!3d54.9832693!4d82.8963831" target="_blank">
                             Novosibirsk, Russia
+                        </a>
+                        <a class="contact__link contact__link--address ru" href="https://www.google.com/maps/place/Novosibirsk,+Novosibirsk+Oblast/@54.9700492,82.6692224,10z/data=!3m1!4b1!4m5!3m4!1s0x42dfe5e190cc4d97:0x9b3a0673e1d3e985!8m2!3d54.9832693!4d82.8963831" target="_blank">
+                            Новосибирск, Россия
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="education">
+            <div class="education en">
                 <h3 class="education__title title">education</h3>
                 <span class="education__line line"></span>
                 <div class="education__list">
@@ -100,8 +141,20 @@
                     </div>
                 </div>
             </div>
+            <div class="education ru">
+                <h3 class="education__title title">образование</h3>
+                <span class="education__line line"></span>
+                <div class="education__list">
+                    <div class="education__item">
+                        <p class="education__department">Информатика и вычислительная техника</p>
+                        <p class="education__date">2016 - 2021</p>
+                        <p class="education__university">НГТУ, Неоконченное</p>
+                    </div>
+                </div>
+            </div>
             <div class="skills">
-                <h3 class="skills__title title">skills</h3>
+                <h3 class="skills__title title en">skills</h3>
+                <h3 class="skills__title title ru">навыки</h3>
                 <span class="skills__line line"></span>
                 <div class="skills__list">
                     <div class="skills__item">
@@ -196,21 +249,25 @@
                     </div>
                 </div>
             </div>
-            <div class="hobbies">
+            <div class="hobbies en">
                 <h3 class="hobbies__title title">hobbies</h3>
                 <span class="hobbies__line line"></span>
                 <p class="hobbies__text">
                     I enjoy spending my leisure time with friends. I like both real-life communication and communication on the Internet. I take interest in playing computer games and I’m fond of assembling plastic models.
                 </p>
             </div>
+            <div class="hobbies ru">
+                <h3 class="hobbies__title title">Хобби</h3>
+                <span class="hobbies__line line"></span>
+                <p class="hobbies__text">
+                    Мне нравится проводить свободное время с друзьями. Мне нравится как общение в реальной жизни, так и общение в Интернете. Я увлекаюсь компьютерными играми и увлекаюсь сборкой пластиковых моделей.
+                </p>
+            </div>
         </section>
     </div>
 </body>
+<script src="js/localization.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/typed.min.js"></script>
-<script>
-    function newTyped(){}$(function(){$("#typed").typed({
-    strings: ["Smoke test", "Regress test", "UAT", "Alfa test", "Beta test", "Black box", "White box", "Grey box", "Ad-hoc test", "Exploratory test", "Pozitive test", "Negative test", "Static test", "Dynamic test", "Manual test", "Auto test", "Semi-auto test", "UI test", "GUI test", "Usability test", "l10n", "i18n", "Accessibility test", "Critical path test", "Extended test"],
-    typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
-</script>
+<script src="js/animation.js"></script>
 </html>
