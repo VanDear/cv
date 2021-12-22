@@ -16,13 +16,7 @@
     .rightside {
         margin-left: 0px;
     }
-    /* .download {
-        margin-right: 8px;
-        min-width: 125px;
-        padding: 8px 16px;
-      }     */
 }
-
 @media only screen and (max-width: 700px) {
     * {
         font-size: 12px;
@@ -53,10 +47,8 @@
     .about__post {
         font-size: 16px;
     }
-
     .title {
         font-size: 16px;
-
     }
     .line {
         border-bottom: 3px solid rgba(187, 122, 59, 0.3);
@@ -93,7 +85,6 @@
     .experience__item-text {
         margin: 5px 0 0 0;
     }
-    
     .contact {
         margin-bottom: 30px;
     }
@@ -121,7 +112,6 @@
         width: 20px;
         height: 20px;
     }
-
     .education {
         margin-bottom: 30px;
     }
@@ -148,7 +138,6 @@
         height: 3px;
         width: 15px; 
     }
-
     .skills {
         margin-bottom: 30px;
     }
@@ -160,6 +149,8 @@
     }
     .skills__item {
         margin-bottom: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .skills__item-name {
@@ -183,7 +174,6 @@
     .hobbies__line {
         margin-bottom: 14px;
     }
-
     .buttons {
         top: 1%;
     }
@@ -240,7 +230,6 @@
         margin-left: 26px;
     }
 }
-
 @media only screen and (max-width: 330px) {
     .header {
         max-height: 90px;
