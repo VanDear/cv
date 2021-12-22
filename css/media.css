@@ -16,11 +16,11 @@
     .rightside {
         margin-left: 0px;
     }
-    .download {
+    /* .download {
         margin-right: 8px;
         min-width: 125px;
         padding: 8px 16px;
-      }    
+      }     */
 }
 
 @media only screen and (max-width: 700px) {
@@ -188,10 +188,31 @@
         top: 1%;
     }
     .download {
-        margin-right: 2px;
+        width: 94px;
+        height: 25.5px;
         font-size: 10px;
         padding: 5px 1px;
-        min-width: 90px;
+        
+    }
+    .download__title {
+        font-size: 10px;
+        top: 7px;
+        left: 14px;
+    }
+    .download:hover {
+        width: 170px;
+    }
+    .download__link {
+        padding: 3px 6px 3px 6px;
+        font-size: 10px;
+    }
+    .download__link--en {
+        top: 4px;
+        left: 94px;
+    }
+    .download__link--ru {
+        top: 4px;
+        left: 130px;
     }
     .switch > span {
         top: 6.5px;
