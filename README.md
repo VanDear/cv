@@ -1,4 +1,6 @@
 # My web cv
+Link: https://vandear.github.io/cv/
+
 To do
 
 - ~~Education swap~~
